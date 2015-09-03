@@ -12,7 +12,7 @@ namespace RatasasWS
         {
             SqlConnection sql = new SqlConnection();
             sql.ConnectionString = "Server=localhost;Database=RATASAS;User ID=ratas;password=feed;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;";
-            return sql;
+            return sql;  
         }
     }
 }
